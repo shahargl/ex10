@@ -1,4 +1,4 @@
-#!/bin/bash
+
 #q1.a
 awk 'END{print NR}' aliceinwonderland.txt
 
