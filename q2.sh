@@ -7,4 +7,4 @@ sed 's/Sherlock/Liam/g' sherlockholmes.txt
 # answer e:
 sed -E '/[A-Z][a-z]+ [A-Z][a-z]+/d' sherlockholmes.txt
 # answer f
-sed 's/(\([a-zA-Z0-9]*\))/[\1]/g' sherlockholmes.txt
+sed -E 's/\((.+)\)/[\1] /g' sherlockholmes.txt
