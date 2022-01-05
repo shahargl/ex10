@@ -1,0 +1,14 @@
+(A)
+sed -nE '/Holmes|Sherlock/p' sherlockholmes.txt | wc -l
+
+(B)
+sed -nr '/Holmes|Sherlock/p' sherlockholmes.txt | wc -w
+
+(C)
+sed 's/Sherlock/Shachar/g' sherlockholmes.txt 
+
+(E)
+sed -E "/[A-Z][a-z]+ [A-Z][a-z]+/d" sherlockholmes.txt
+
+(F)
+sed 's/(|)/[|]/g' sherlockholmes.txt
