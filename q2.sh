@@ -47,9 +47,6 @@ sed -i -E "s/\((.+)\)/\[\1\] /g" sherlockholmes.txt
 #grep -E "\(.+\)" sherlockholmes.txt | sed -E "s/\((.+)\)/\[\1\] /g"
 
 
-
-
-
 #grep -E "[A-Z][A-Za-z]+ [A-Z][A-Za-z]+" sherlockholmes.txt | wc -l
 
 #sed -n -E "/[A-Z][A-Za-z]+ [A-Z][A-Za-z]+/p" sherlockholmes.txt | wc -l
